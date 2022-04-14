@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+        <link rel="stylesheet" href="./style.css">
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <img src="assets/logo.png"Logo">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+    
+                <li>
+                    <a href="">My Project</a>
+                </li>
+            </ul>
+            </div>
+        
+            <div class="nav-right">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </nav>
+
+        <div class="form-contact">
+            <div class="container-form">
+                <form>
+                    <div class="input-name">
+                        <label for="Name">Name</label>
+                        <input id="name" type="text"/>
+                        
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email"/>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" type="text"/>
+                    </div>
+
+                    <div>
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option hidden></option>
+                            <option value="Let's Talk">Let's Talk</option> 
+                            <option value="Let's Collaboration">Let's Collaboration</option>
+                            <option value="I'm Hiring">I'm Hiring</option>
+                    </select>
+                    </div>
+
+                    <div>
+                        <label for="message">Your Message</label>
+                        <textarea id="message"></textarea>
+                    </div>
+
+                    <div class="submit" type="button">
+                        <button type="submit" id="submit" onclick="showData(event)" class="button-submit">Submit</button>
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>

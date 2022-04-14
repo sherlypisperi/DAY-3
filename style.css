@@ -1,0 +1,165 @@
+
+body{
+    margin:0;
+    background-color: rgb(236, 232, 232);
+}
+
+/*NAVBAR*/
+nav {
+    background-color:rgb(226, 224, 224);
+    display:flex;
+    height:7vh;
+}
+
+
+nav .nav-left{
+    flex:50%;
+    background-color: rgb(226, 224, 224);
+    padding-left:40px;
+    display:flex;
+    align-items: center;
+}
+
+nav .nav-left li{
+    display:inline;
+}
+
+nav .nav-left ul li a{
+    text-decoration:none;
+    color:black;
+    padding:12px;
+}
+
+nav .nav-right{
+    flex:50%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding-right: 80px;
+    text-decoration:none;
+    
+}
+
+nav .nav-right a{
+    background-color:black;
+    color:white;
+    padding:5px;
+    border-radius:5px;
+    font-size:15px;
+    text-decoration:none;
+}
+
+/*HOME RIGHT*/
+
+.card {
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px 5px;
+    box-shadow: 0px 0px 5px;
+    margin-left: 140px;
+}
+
+.card .name {
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.personal {
+    display:flex;
+    height: 93vh;
+    align-items: center;
+    border: 1px solid white;
+    margin: 90px;
+    background-color: white;
+}
+
+.personal .container-content {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.container-content .right {
+    flex : 40%;
+}
+
+
+/*HOME LEFT*/
+
+.container-content .left {
+    flex: 60%;
+    margin-left: 130px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size:large;
+}
+
+.contact-button {
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+    width: 80px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.CV button, p {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 35px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+/*CONTACT*/
+.Form-contact{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 93vh;
+   
+}
+
+.form-contact label{
+    font-size: 20px;
+    font-weight: 500px;
+    
+}
+
+.form-contact form input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius:8px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 500px; 
+}
+
+.form-contact textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-contact form button {
+    padding: 5px 8px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    float: right;
+    cursor: pointer;
+}
