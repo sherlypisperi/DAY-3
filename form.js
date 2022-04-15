@@ -12,11 +12,11 @@ function showData(e) {
     window.open(`mailto:${emailReceiver}?subject=${subject}&body=${bodyEmail}`);
 
     if (name == '') {
-        return alert("email wajib diisi")
+        return alert("name wajib diisi")
     } else if (email == '') {
         return alert("email wajib diisi")
     } else if (phone == '') {
-        return alert("phone wajib diisi")
+        return alert("phone number wajib diisi")
     } else if (subject == '') {
         return alert("subject wajib diisi")
     } else if (message == '') {
