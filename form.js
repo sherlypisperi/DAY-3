@@ -6,11 +6,16 @@ function showData(e) {
     let subject = document.getElementById('subject').value
     let message = document.getElementById('message').value
 
+    console.log ('name');
+    console.log ('email');
+    console.log ('phone');
+    console.log ('subject');
+    console.log ('message');
+
+    
     let emailReceiver = 'sherly.pisperi1604@gmail.com'
     let bodyEmail = `Hy, my name is ${name}. i am so excited with your portofolio.${subject}, ${message}`
-
-    window.open(`mailto:${emailReceiver}?subject=${subject}&body=${bodyEmail}`);
-
+    
     if (name == '') {
         return alert("name wajib diisi")
     } else if (email == '') {
@@ -21,9 +26,8 @@ function showData(e) {
         return alert("subject wajib diisi")
     } else if (message == '') {
         return alert("message wajib diisi")
+    } else{
+        window.open(`mailto:${emailReceiver}?subject=${subject}&body=${bodyEmail}`);
     }
+    
 }
-
-
-
-
